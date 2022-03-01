@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+    border: solid 1px;
+}
