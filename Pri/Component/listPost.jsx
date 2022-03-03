@@ -47,6 +47,7 @@ function updateUser()
   }).then((result) => {
     result.json().then(data => {
       console.warn(data)
+      setItens(data[0].itens)
       getUsers()
     })
   })
