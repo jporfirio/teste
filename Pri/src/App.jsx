@@ -1,6 +1,6 @@
 import React,{ useState,useEffect } from 'react'
-import listPost from '../Component/listPost'
 import Modal from "react-modal"
+import GetUsers from '../Component/getUsers'
 
 Modal . setAppElement ( '#root' ) ;
 
@@ -9,7 +9,7 @@ const App = () => {
 
 return (
   <div>
-    {listPost()}
+    <GetUsers/>
   </div>
 )
 }
